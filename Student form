@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="https://pixy.org/src/96/965483.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    
+<h1 class="title"> student Registration Harish Pramod form </h1>
+<form action="main.py"> 
+   <div>
+    <label for="">First Name:</label>
+    <input type="Text" id="fn" name="fname" placeholder="Enter First name">
+    <label for="">Last Name:</label>
+    <input type="Text" id="ln" name="lname" placeholder=" Enter Last Name">
+
+   </div><br>
+   <div>
+    <label for="em">Email:</label>
+    <input type="email" id="em" name="email" placeholder="Enter your Email">
+   </div><br>
+   <div>
+    <label for="pws">Password:</label>
+    <input type="password" id="pws" name="password" placeholder="Enter Password">
+
+
+   </div><br>
+
+   <div>
+    <label for="DOB">Date of Birth:</label>
+    <input type="Date of Birth" id="DOB" name="Date of Birth" placeholder="Enter Date of Birth">
+   </div><br>
+   <div>
+
+    <label>Choose Gender:</label>
+    <input type="radio" name="gender" id="m" value="male">
+    <label for="m">Male</label>
+    <input type="radio" name="gender" id="f" value="female">
+    <label for="f">Female</label>
+
+    
+   </div><br>
+   <div>
+    <label for="MOB">MOBILE NUMBER:</label>
+    <input type="MOBILE NUMBER" id="MOB" name="MOBILE NUMBER" placeholder="ENTER MOBILE NUMBER">
+   </div><br>
+<div>
+    <label>Languages known:</label>
+    <input type="checkbox" name="languages" id="en" value="English">
+    <label for="en">English</label>
+    <input type="checkbox" name="languages" id="te" value="Telugu">
+    <label for="en">Telugu</label>
+    <input type="checkbox" name="languages" id="hi" value="Hindi">
+    <label for="hi">Hindi</label>
+
+
+</div><br>
+<div>
+    <label> Choose the Course:</label>
+    <select name="" id="" >
+        <option value="">Please Choose</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="Degree">Degree</option>
+        <option value="M.Tech">M.Tech</option>
+        <option Value="B.ED">B.ED</option>
+        <option value="MBA">MBA</option>
+    </select>
+</div><br>
+
+<div>
+   <button type="submit">Submit</button>
+   <button type="Reset"> Reset</button>
+   </button>
+</div>
+</form>
+
+</body>
+</html>
