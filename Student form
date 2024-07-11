@@ -9,7 +9,7 @@
 </head>
 <body>
     
-<h1 class="title"> student Registration Harish Pramod form </h1>
+<h1 class="title"> student Registration Harish form </h1>
 <form action="main.py"> 
    <div>
     <label for="">First Name:</label>
